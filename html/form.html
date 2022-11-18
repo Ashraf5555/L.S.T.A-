@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+    Page: formopdracht.html
+    Author: Ashraf Soudah
+    Description: Superhero Registration From 
+    
+    Revision history
+    0.1 09-04-2020 Ashraf Soudah Initial version
+-->
+
+<html lang="en">
+    <head>
+        <title>SuperHero</title>
+            <meta charset="UTF-8">
+            <meta name="robots" content="all">
+            <meta name="description" content="Superhero Registration From">
+            <meta name="keywords" content="form, registraion, hero, heroname">
+            <meta name="author" content="Ashraf Soudah">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="../css/formstyle.css" rel="stylesheet">
+            <script src="../js/formjs.js"></script>
+    </head>
+    <body>
+        <div class="form-style-5">
+            <form>
+                <fieldset>
+                    <legend>Personal Information:</legend>
+                        <input type="text"  placeholder="Name ">
+                      
+                        <input type="email"  placeholder="Your Email ">
+                        <input type="text"  placeholder="Password ">
+                        <input type="text"  placeholder="Adress ">
+                        <input type="text"  placeholder="Postcode ">
+                        <input type="text"  placeholder="Bank account ">
+                        </select> 
+                    <label for="job">Gender:</label>
+                        <select id="job" >
+                            <optgroup label="Gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="reading">Other</option>
+                            </optgroup>
+                        </select> 
+            </fieldset>
+            <fieldset> 
+                    <label for="job">Description:</label>
+                        <textarea  placeholder="Comment"></textarea>
+            </fieldset>
+                    <input onclick="MyFunction()" type="submit" value="Send" />
+            </form>
+            </div>
+    </body>
+</html>
+
+
+   

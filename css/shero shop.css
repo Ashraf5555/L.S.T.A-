@@ -1,0 +1,90 @@
+body{
+    background: #ffffff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#navo{
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    background-color: #585757;
+    color: white;
+    height: 90px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+
+}
+
+a{
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.863);
+    text-decoration: none;
+}
+
+input[type=submit] {
+    background-color: #585757;
+    color: white;
+    padding: 10px 15px;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login{
+    background-color: #585757;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.ontwerp{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover, input:hover{
+    color: #000;
+    opacity: 0.4;
+    
+}
+
+.welcome{
+    position: relative;
+    top:0;
+    bottom:0;
+    
+   
+}
+
+span{
+    color: #303132 ;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: normal;
+    letter-spacing: 0.3em;
+    vertical-align: baseline;
+}
+.free{
+    position: relative;
+    top: -4px;
+   display: flex;
+   align-items: center;
+    bottom: 0;
+    height: 50px;
+    background-color:rgb(212, 206, 206);
+    text-align: center;
+    font-size: 25px;
+    color: #303132;
+    font-family: normal normal normal 13px/1.4em raleway,sans-serif;
+    justify-content: center;
+}
